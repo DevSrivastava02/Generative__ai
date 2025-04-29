@@ -2,7 +2,18 @@
 # it allow for detailed customerization of ploats
 
 import matplotlib.pyplot as plt
+# x=[1,2,3,4,5]
+# y=[7,8,9,0,7]
+# plt.plot(x,y)
+# plt.show()
+
+# Line Ploats
+
 x=[1,2,3,4,5]
-y=[7,8,9,0,7]
-plt.plot(x,y)
+y=[6,7,8,9,0]
+plt.plot(x,y ,label="trend")
+plt.title("Line Plot")
+plt.xlabel("X_label")
+plt.ylabel("Y_label")
+# plt.legend()
 plt.show()
