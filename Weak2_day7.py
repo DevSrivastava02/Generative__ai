@@ -9,11 +9,20 @@ import matplotlib.pyplot as plt
 
 # Line Ploats
 
-x=[1,2,3,4,5]
-y=[6,7,8,9,0]
-plt.plot(x,y ,label="trend")
-plt.title("Line Plot")
+# x=[1,2,3,4,5]
+# y=[6,7,8,9,0]
+# plt.plot(x,y ,label="trend")
+# plt.title("Line Plot")
+# plt.xlabel("X_label")
+# plt.ylabel("Y_label")
+# plt.legend()
+# plt.show()
+
+#Bar chart
+Categories=["A","B","C","D"]
+values=[12,34,56,23]
+plt.bar(Categories,values,color="skyblue")
+plt.title("Bar chart")
 plt.xlabel("X_label")
 plt.ylabel("Y_label")
-# plt.legend()
 plt.show()
