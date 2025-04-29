@@ -1,0 +1,8 @@
+#Introduction tp Matplotlib for plotting===>>>> it's a foundational Python Library for creating static, interactive,and animated plots.
+# it allow for detailed customerization of ploats
+
+import matplotlib.pyplot as plt
+x=[1,2,3,4,5]
+y=[7,8,9,0,7]
+plt.plot(x,y)
+plt.show()
