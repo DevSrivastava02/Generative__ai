@@ -29,10 +29,21 @@ import matplotlib.pyplot as plt
 
 
 #Histrogram chart
-Data=[1,2,2,3,3,3,4,4,4,4]
-plt.hist(Data,bins=4,color="skyblue",edgecolor="black",label="trends")
-plt.title("Histrogram chart")
+# Data=[1,2,2,3,3,3,4,4,4,4]
+# plt.hist(Data,bins=4,color="skyblue",edgecolor="black",label="trends")
+# plt.title("Histrogram chart")
+# plt.xlabel("X_label")
+# plt.ylabel("Y_label")
+# plt.legend()
+# plt.show()
+
+
+#Scattor plot
+x=[1,2,3,4,5]
+y=[23,45,67,34,56]
+plt.scatter(x,y,label="trend",color="skyblue" )
 plt.xlabel("X_label")
 plt.ylabel("Y_label")
 plt.legend()
 plt.show()
+
