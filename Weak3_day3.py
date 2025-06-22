@@ -15,4 +15,9 @@ learning_rate=0.1
 iteration=1000
 Optimal_theta=Optimal_Descent(X,Y,theta,learning_rate,iteration)
 print("Optimal descent\n",Optimal_theta)
- 
+
+import sympy as sp
+X=sp.Symbol('x')
+f=X**2+2*X**3
+derivation=sp.diff(f,X)
+print(derivation) 
